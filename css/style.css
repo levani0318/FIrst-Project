@@ -1,0 +1,175 @@
+*{
+    box-sizing:border-box;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+}
+.zedazoli{
+    background-color: blueviolet;
+    height: 10px;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.headlogo{
+    margin-bottom: 20px;
+    padding: 15px;
+}
+header{
+    width: 800px;
+    margin: 11px 0;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+header h1{
+    margin-left: 20px;
+}
+h1 a{
+    color: blueviolet;
+}
+h1 a:hover{
+    color:black;
+}
+.menu{
+    display: flex;
+    align-items: space-between;
+}
+nav a{
+    color: black;
+    padding: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+nav a:hover{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    font-weight: bold;
+    color: white;
+}
+nav:last-child{
+    margin-right: 10px;
+}
+.mainsec{
+    width: 800px;
+    text-align: center;
+}
+figure img{
+    border: 10px solid blueviolet;
+    padding: 50px;
+    background-color: blueviolet;
+}
+figure img:hover{
+    background-color: white;
+    border:0px;
+    padding: 80px;
+    cursor:pointer;
+}
+.mainsec figcaption{
+    margin-top: -48px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.mainsec p{
+    margin-top: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+article{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+ol{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+ol li{
+    margin-top: 5px;
+    margin-left: 25px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+article p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.cxriliframe{
+    display: flex;
+    justify-content: center;
+}
+table{
+    /*border: 1px solid;*/
+    text-align: left;
+    border-collapse: collapse;    
+}
+caption{
+    margin:10px 0 15px 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+tr th{
+    letter-spacing: 2px;
+}
+tr th,
+tr td{
+    /*border: 1px solid;*/
+    padding: 10px 20px 10px 20px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
+footer{
+    margin-top:15px;
+    background-color: blueviolet;
+    text-align: right;
+}
+@media screen and (max-width: 800px) {
+    .container{
+        margin-left: -50px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    header h1{
+        margin-left: -15px;
+    }
+    nav{
+        margin-top: 15px;
+        display: flex; 
+        flex-direction: column; 
+    }
+    figure img{
+        margin-top: -40px;
+        border: 0px;
+        width:auto;
+        padding: 0px;
+        background-color: white;
+    }
+    figure img:hover{
+        padding: 5px;
+    }
+    .mainsec figcaption{
+        margin: -12px;
+    }
+    article{
+        margin-left: 100px;
+    }
+    article p{
+        text-align: left;
+    }
+    footer{
+        text-align: center;
+    }
+}
